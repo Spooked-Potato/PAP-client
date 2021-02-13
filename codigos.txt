@@ -1,0 +1,6 @@
+git add .
+git commit -m "escrever o que se fez"
+git push 
+-----------------/---------------------------
+
+git pull ("ter o clone do repositorio feito")
