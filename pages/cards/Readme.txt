@@ -1,0 +1,1 @@
+as imagens nao estao bem redirecionadas, mudar o caminho delas

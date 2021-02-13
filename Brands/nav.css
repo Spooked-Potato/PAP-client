@@ -1,0 +1,30 @@
+nav{
+    background-color: rgb(0, 0, 0);
+	margin-bottom: 40px!important;
+}
+
+.image_countainer{
+	width: 35%;
+	float: left;
+	height: 100%;
+	display: block;
+}
+
+.image_countainer img{
+	width: 30%;
+	height: auto;
+	align-items: left;
+}
+
+
+nav ul li a{
+	font-size: 20px;
+	color: #fff
+
+}
+
+
+nav ul li a:hover{
+color:red;
+transition: 0.8s;
+}
