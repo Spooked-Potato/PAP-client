@@ -1,17 +1,17 @@
 body{
     margin: 0;
     padding: 0;
-    background: url("../assets/background/motologin.jpg");
-    background-size: cover;
-    background-position: center;
-    font-family: sans-serif;
+    background-color: rgba(187, 187, 187, 0.562);
+  
 }
+
+
 
 
 .loginbox{
     width: 320px;
-    height: 420px;
-    background-color: rgba(125, 125, 125, 0.3);
+    height: 460px;
+    background-color: rgba(125, 125, 125, 0.466);
     color: rgb(0, 0, 0);
     top: 50%;
     left: 50%;

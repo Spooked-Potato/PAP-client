@@ -1,8 +1,10 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fmotos</title>
     <!--navbar-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -10,16 +12,25 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!--navbar-->
-
+    <!--Cards-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <!--Cards-->
+    <!--Footer-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Footer-->
     <!--css-->
     <link rel="stylesheet" type="text/css" href="nav.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <!--Css-->
+    <link rel="stylesheet" type="text/css" href="info.css">
+    <link rel="stylesheet" type="text/css" href="footer.css">
+    <!--css-->
     <!--siteicon-->
     <link rel="icon" href="../assets/logo/logotipo.jpg" type="image/gif" sizes="16x16">
     <!--siteicon-->
+</head>
 
 <body>
+
     <!--navabar-->
 
     <nav class="navbar navbar-expand-lg fixed-top">
@@ -34,12 +45,12 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="nav navbar-nav ml-auto">
-                    <!--  <li class="nav-item">
+                    <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="../login/index.html">Login</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="../resgister/index.html">Registo</a>
-                    </li> -->
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="../Brands/index.html">Marcas</a>
                     </li>
@@ -49,12 +60,6 @@
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#">Motas</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Acerca de Nós</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Contactos</a>
-                    </li>
                 </ul>
             </div>
         </div>
@@ -62,44 +67,63 @@
     </div>
     <!--navbar-->
 
-    <!--Registo-->
+    <!--info-->
 
-    <div class="container">
-        <h1>Registo</h1>
-        <form>
-            <label for="username">Utilizador</label>
-            <input type="text" name="user" id="username" placeholder="Insira o nome de Utilizador ">
+    <section id="facilities">
+        <div class="container">
+            <div class="title">
+                <h1>Mota X</h1>
+                <p>Toda a informação sobre a mota X!</p>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="main">
+                    <div class="content">
+                        <img src="../assets/background/background.jpg" alt="Ducati" style="width:100%"><br>
+                        <h3>Some Other Work</h3>
+                        <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at
+                            tantas
+                            oporteat
+                            nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+                        <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at
+                            tantas
+                            oporteat
+                            nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Insira o seu email">
+    <!--info-->
 
-            <label for="password">Palavra-Passe</label>
-            <input type="password" name="password" id="password" placeholder="Insira a Palavra-Passe">
+    <!--footer-->
+    <div class="footer">
+        <div class="inner_footer">
 
-            <label for="doublepassword">Confirme a sua Palavra-Passe</label>
-            <input type="password" name="doublepassword" id="doublepassword"
-                placeholder="Insira novamente a  Palavra-Passe">
-
-            <div class="gender">
-
-                <label for="gender">Escolha o seu género</label>
-                <select name="gender" id="gender">
-
-                    <option value="Masculino">Masculino</option>
-                    <option value="Femenino">Femenino</option>
-
-                </select>
+            <div class="logo_container">
+                <img src="../assets/logo/logotipo.jpg">
             </div>
 
-            <input type="submit" name="" value="Registo">
-            <div class="loginbox">
-                <a class="button" aria-current="page" href="../Brands/index.html">Voltar</a><br>
-                <a class="button" aria-current="page" href="../login/index.html">Já tem conta,entre aqui!</a>
+            <div class="footer_third">
+                <h1>Sobre Nós</h1>
+                <a href="#">Quem somos?</a>
             </div>
-        </form>
 
+            <div class="footer_third">
+                <h1>Contactos</h1>
+                <p>a29060@aemtg.pt</p>
+            </div>
+
+            <div class="footer_third">
+                <h1>Localização</h1>
+                <p>Av. São João de Deus 1,<br>
+                    8500-508 Portimão</p>
+            </div>
+        </div>
     </div>
-    <!--Rgisto-->
+    <!--footer-->
     <!--nav-->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -111,9 +135,10 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
     <!--nav-->
-
-
+    <!--cards-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!--cards-->
 </body>
-</head>
 
 </html>
